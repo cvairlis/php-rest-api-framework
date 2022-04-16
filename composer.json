@@ -1,0 +1,42 @@
+{
+  "name": "cvairlis/php-rest-api-framework",
+  "description": "Rest api service implementing the very basic specs.",
+  "keywords": [
+    "router", "php", "rest-api", "api"
+  ],
+  "authors": [
+    {
+      "name": "Charalambos Vairlis",
+      "email": "cvairlis@gmail.com",
+      "homepage": "https://www.chariss.gr",
+      "role": "Software Engineer"
+    }
+  ],
+  "require": {
+    "php": ">=7.3",
+    "ext-json": "*",
+    "friendsofphp/php-cs-fixer": "^3.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "scripts": {
+    "phpunit":"vendor/bin/phpunit",
+    "php-fix": [
+        "php-cs-fixer fix ."
+    ],
+    "test": [
+      "phpunit tests"
+    ]
+  },
+  "autoload": {
+    "psr-4": {
+      "ApiFramework\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
