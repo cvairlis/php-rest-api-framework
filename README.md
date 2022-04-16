@@ -14,6 +14,5 @@ I wanted to study and dive into the very certain architecture technics that are 
 - [Simple php router from scratch](https://github.com/skipperbent/simple-php-router)
 - [RESTful service resources](https://www.ibm.com/docs/en/was/9.0.5?topic=applications-defining-resources-in-restful)
 
-### Glory and honnor to **skipperbent simple-php-router**.
-
+### Glory and honnor to **skipperbent simple-php-router**.s
 Navigate to [skipperbent's repository](https://github.com/skipperbent/simple-php-router) to review the original implementation and take a more comprehensive picture of the full feature implementation.
